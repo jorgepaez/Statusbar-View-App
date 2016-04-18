@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8D13D2E1CC4CEB10085550C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D13D2D1CC4CEB10085550C /* AppDelegate.swift */; };
+		E8D13D301CC4CEB10085550C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D13D2F1CC4CEB10085550C /* Assets.xcassets */; };
+		E8D13D331CC4CEB10085550C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D13D311CC4CEB10085550C /* MainMenu.xib */; };
+		E8D13D3B1CC4CF1D0085550C /* StatusBarButtonImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E8D13D3A1CC4CF1D0085550C /* StatusBarButtonImage@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E8D13D2A1CC4CEB10085550C /* Statusbar-View-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Statusbar-View-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8D13D2D1CC4CEB10085550C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8D13D2F1CC4CEB10085550C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8D13D321CC4CEB10085550C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E8D13D341CC4CEB20085550C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8D13D3A1CC4CF1D0085550C /* StatusBarButtonImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StatusBarButtonImage@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8D13D271CC4CEB10085550C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8D13D211CC4CEB10085550C = {
+			isa = PBXGroup;
+			children = (
+				E8D13D2C1CC4CEB10085550C /* Statusbar-View-App */,
+				E8D13D2B1CC4CEB10085550C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8D13D2B1CC4CEB10085550C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8D13D2A1CC4CEB10085550C /* Statusbar-View-App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8D13D2C1CC4CEB10085550C /* Statusbar-View-App */ = {
+			isa = PBXGroup;
+			children = (
+				E8D13D2D1CC4CEB10085550C /* AppDelegate.swift */,
+				E8D13D2F1CC4CEB10085550C /* Assets.xcassets */,
+				E8D13D311CC4CEB10085550C /* MainMenu.xib */,
+				E8D13D341CC4CEB20085550C /* Info.plist */,
+				E8D13D3A1CC4CF1D0085550C /* StatusBarButtonImage@2x.png */,
+			);
+			path = "Statusbar-View-App";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8D13D291CC4CEB10085550C /* Statusbar-View-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8D13D371CC4CEB20085550C /* Build configuration list for PBXNativeTarget "Statusbar-View-App" */;
+			buildPhases = (
+				E8D13D261CC4CEB10085550C /* Sources */,
+				E8D13D271CC4CEB10085550C /* Frameworks */,
+				E8D13D281CC4CEB10085550C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Statusbar-View-App";
+			productName = "Statusbar-View-App";
+			productReference = E8D13D2A1CC4CEB10085550C /* Statusbar-View-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8D13D221CC4CEB10085550C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jorge Paez";
+				TargetAttributes = {
+					E8D13D291CC4CEB10085550C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = E8D13D251CC4CEB10085550C /* Build configuration list for PBXProject "Statusbar-View-App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8D13D211CC4CEB10085550C;
+			productRefGroup = E8D13D2B1CC4CEB10085550C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8D13D291CC4CEB10085550C /* Statusbar-View-App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8D13D281CC4CEB10085550C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D13D301CC4CEB10085550C /* Assets.xcassets in Resources */,
+				E8D13D331CC4CEB10085550C /* MainMenu.xib in Resources */,
+				E8D13D3B1CC4CF1D0085550C /* StatusBarButtonImage@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8D13D261CC4CEB10085550C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D13D2E1CC4CEB10085550C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E8D13D311CC4CEB10085550C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8D13D321CC4CEB10085550C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8D13D351CC4CEB20085550C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8D13D361CC4CEB20085550C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E8D13D381CC4CEB20085550C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Statusbar-View-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jorgepaez.Statusbar-View-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8D13D391CC4CEB20085550C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Statusbar-View-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "jorgepaez.Statusbar-View-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8D13D251CC4CEB10085550C /* Build configuration list for PBXProject "Statusbar-View-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D13D351CC4CEB20085550C /* Debug */,
+				E8D13D361CC4CEB20085550C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8D13D371CC4CEB20085550C /* Build configuration list for PBXNativeTarget "Statusbar-View-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8D13D381CC4CEB20085550C /* Debug */,
+				E8D13D391CC4CEB20085550C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8D13D221CC4CEB10085550C /* Project object */;
+}
