@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E89095AD1CC8874400B91611 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89095AB1CC8874400B91611 /* RootViewController.swift */; };
+		E89095AE1CC8874400B91611 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E89095AC1CC8874400B91611 /* RootViewController.xib */; };
 		E8D13D2E1CC4CEB10085550C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D13D2D1CC4CEB10085550C /* AppDelegate.swift */; };
 		E8D13D301CC4CEB10085550C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8D13D2F1CC4CEB10085550C /* Assets.xcassets */; };
 		E8D13D331CC4CEB10085550C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8D13D311CC4CEB10085550C /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E89095AB1CC8874400B91611 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		E89095AC1CC8874400B91611 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		E8D13D2A1CC4CEB10085550C /* Statusbar-View-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Statusbar-View-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8D13D2D1CC4CEB10085550C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8D13D2F1CC4CEB10085550C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				E8D13D2D1CC4CEB10085550C /* AppDelegate.swift */,
+				E89095AB1CC8874400B91611 /* RootViewController.swift */,
+				E89095AC1CC8874400B91611 /* RootViewController.xib */,
 				E8D13D2F1CC4CEB10085550C /* Assets.xcassets */,
 				E8D13D311CC4CEB10085550C /* MainMenu.xib */,
 				E8D13D341CC4CEB20085550C /* Info.plist */,
@@ -118,6 +124,7 @@
 			files = (
 				E8D13D301CC4CEB10085550C /* Assets.xcassets in Resources */,
 				E8D13D331CC4CEB10085550C /* MainMenu.xib in Resources */,
+				E89095AE1CC8874400B91611 /* RootViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E89095AD1CC8874400B91611 /* RootViewController.swift in Sources */,
 				E8D13D2E1CC4CEB10085550C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

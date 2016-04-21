@@ -13,27 +13,37 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
     let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(NSSquareStatusItemLength)
-
+    let popover = NSPopover()
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
         if let button = statusItem.button {
             button.image = NSImage(named: "StatusBarButtonImage")
-            button.action = #selector(AppDelegate.printQuote(_:))
+            button.action = #selector(AppDelegate.togglePopover(_:))
         }
+        
+        popover.contentViewController = RootViewController(nibName: "RootViewController", bundle: nil)
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
         // Insert code here to tear down your application
     }
     
-    func printQuote(sender: AnyObject) {
-        let quoteText = "Never put off until tomorrow what you can do the day after tomorrow."
-        let quoteAuthor = "Mark Twain"
-        
-        print("\(quoteText) - \(quoteAuthor)")
+    func showPopover(sender: AnyObject?) {
+        if let button = statusItem.button {
+            popover.showRelativeToRect(button.bounds, ofView: button, preferredEdge: NSRectEdge.MinY)
+        }
     }
-
-
+    
+    func closePopover(sender: AnyObject?) {
+        popover.performClose(sender)
+    }
+    
+    func togglePopover(sender: AnyObject?) {
+        if popover.shown {
+            closePopover(sender)
+        } else {
+            showPopover(sender)
+        }
+    }
 }
-
